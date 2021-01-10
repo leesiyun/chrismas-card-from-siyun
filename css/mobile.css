@@ -1,0 +1,16 @@
+@media screen and (max-width: 760px) {
+  .messagebox {
+    font-size: 18px;
+  }
+  .rtan {
+    width: 180px;
+    height: 180px;
+  }
+  h1 {
+    font-size: 25px;
+    margin: 45px 0;
+  }
+  .envelope-msg {
+    font-size: 22px;
+  }
+}

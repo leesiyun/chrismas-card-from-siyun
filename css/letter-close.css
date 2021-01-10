@@ -1,0 +1,21 @@
+.envelope {
+  width: 200px;
+  height: 200px;
+
+  background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+}
+.envelope-msg {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.letter-close {
+  display: block;
+  margin-top: 35vh;
+}
