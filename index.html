@@ -26,32 +26,21 @@
   <body>
     <div class="letter-close">
       <div class="envelope-msg">OPEN THE LETTER</div>
-      <div class="envelope" onclick="open_letter()"></div>
+      <div class="envelope"></div>
     </div>
     <div class="letter-open">
-      <div class="letter_image" onclick="hiddenMessage()"></div>
+      <div class="letter_image"></div>
       <h1>Merry Christmas 🎅🏻</h1>
       <div class="messagebox">
-        🎅🏻 : HO HO HO~<br />
+        🎅🏻 : HO HO HO~!<br />
         Eat. Drink. Be Merry. <br />
         Have a wonderful Christmas~!✨ <br />
         Merry Christmas <br />
         and Happy New Year!🎄☃️ <br />
-        <p class="from">2020/12/25 SIYUN</p>
+        <p class="from"><span class="js-year">2020</span>/12/25 SIYUN</p>
       </div>
     </div>
   </body>
-  <script>
-    function open_letter() {
-      document.getElementsByClassName('letter-close')[0].style.display = 'none';
-      document.getElementsByClassName('letter-open')[0].style.display = 'block';
-    }
-
-    function hiddenMessage() {
-      alert('You catch on quick😏');
-      window.location.href =
-        'https://github.com/leesiyun/christmas-card-from-siyun';
-    }
-  </script>
+  <script src="js/app.js"></script>
   <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
 </html>
